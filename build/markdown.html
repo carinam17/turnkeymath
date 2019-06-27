@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Markdown examples | Franklin</title>
+
+    <!-- Styles and fonts -->
+    <link href="/themes/glide/stylesheets/glide-9ee60cd4.css" rel="stylesheet" />
+    <link href="/themes/glide/stylesheets/syntax-e33ab3a1.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Bree+Serif&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <script src="/themes/glide/javascripts/modernizr-16671e9f.js"></script>
+  </head>
+
+  <body class="markdown glide">
+    <div class="page-wrapper">
+
+      <!--[if lt IE 7]>
+          <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+      <header class="page-header" role="banner">
+<a href="/" class="invisilink">            <span class="book-title">Franklin</span>
+</a>        <span class="book-author visuallyhidden">by You</span>
+      </header>
+
+        <div class="content-wrapper clearfix">
+
+          <section class="main-content" role="main">
+            <div class="main-content-source">
+              <h1 id="markdown-examples">Markdown examples</h1>
+
+<p>This is far from comprehensive. To learn more about Markdown, see <a href="https://guides.github.com/features/mastering-markdown/">Mastering Markdown</a>.</p>
+
+<h2 id="text">Text</h2>
+
+<p>It's very easy to make some words <strong>bold</strong> and other words <em>italic</em> with Markdown. You can even embed hyperlinks <a href="https://github.com/bryanbraun/franklin">Franklin</a></p>
+
+<h2 id="headers">Headers</h2>
+
+<pre class="highlight plaintext"><code># This is an &lt;h1&gt; tag
+## This is an &lt;h2&gt; tag
+###### This is an &lt;h6&gt; tag
+</code></pre>
+<h1 id="this-is-an-h1-tag">This is an &lt;h1&gt; tag</h1>
+
+<h2 id="this-is-an-h2-tag">This is an &lt;h2&gt; tag</h2>
+
+<h6 id="this-is-an-h6-tag">This is an &lt;h6&gt; tag</h6>
+
+<h2 id="emphasis">Emphasis</h2>
+
+<pre class="highlight plaintext"><code>*This text will be italic* _This will also be italic_
+
+**This text will be bold** __This will also be bold__
+
+_You **can** combine them_
+</code></pre>
+<p><em>This text will be italic</em><br />
+<em>This will also be italic</em></p>
+
+<p><strong>This text will be bold</strong><br />
+<strong>This will also be bold</strong></p>
+
+<p><em>You <strong>can</strong> combine them</em></p>
+
+<h2 id="lists">Lists</h2>
+
+<h3 id="unordered">Unordered</h3>
+
+<pre class="highlight plaintext"><code>* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+</code></pre>
+<ul>
+  <li>Item 1</li>
+  <li>Item 2
+    <ul>
+      <li>Item 2a</li>
+      <li>Item 2b</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="ordered">Ordered</h3>
+
+<pre class="highlight plaintext"><code>1. Item 1
+2. Item 2
+3. Item 3
+   * Item 3a
+   * Item 3b
+</code></pre>
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3
+    <ul>
+      <li>Item 3a</li>
+      <li>Item 3b</li>
+    </ul>
+  </li>
+</ol>
+
+<p>##Images</p>
+
+<h3 id="local-source">Local source</h3>
+
+<pre class="highlight plaintext"><code>![Image from local source](/images/500x150.png)
+</code></pre>
+<p><img src="/images/500x150-9009d9da.gif" alt="Image from local source" /></p>
+
+<h3 id="external-source">External source</h3>
+
+<pre class="highlight plaintext"><code>![Image from external source](http://lorempixel.com/400/200/)
+</code></pre>
+<p><img src="http://lorempixel.com/400/200/" alt="Image from external source" /></p>
+
+<h2 id="links">Links</h2>
+
+<pre class="highlight plaintext"><code>[Franklin](https://github.com/bryanbraun/franklin)
+</code></pre>
+<p><a href="https://github.com/bryanbraun/franklin">Franklin</a></p>
+
+<h2 id="blockquotes">Blockquotes</h2>
+
+<p>As Kanye West said:</p>
+
+<pre class="highlight plaintext"><code>&gt; We're living the future so
+&gt; the present is our past.
+</code></pre>
+<blockquote>
+  <p>We're living the future so<br />
+the present is our past.</p>
+</blockquote>
+
+<h2 id="inline-code">Inline code</h2>
+
+<pre class="highlight plaintext"><code>I think you should use an
+`&lt;addr&gt;` element here instead.
+</code></pre>
+<p>I think you should use an<br />
+<code>&lt;addr&gt;</code> element here instead.</p>
+
+<h2 id="tables">Tables</h2>
+
+<pre class="highlight plaintext"><code>First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+</code></pre>
+<table>
+  <thead>
+    <tr>
+      <th>First Header</th>
+      <th>Second Header</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Content from cell 1</td>
+      <td>Content from cell 2</td>
+    </tr>
+    <tr>
+      <td>Content in the first column</td>
+      <td>Content in the second column</td>
+    </tr>
+  </tbody>
+</table>
+
+            </div>
+            <nav class="main-content-nav clearfix" role="navigation">
+              <ul>
+                <li><a href="/code_highlighter.html" class="previous">Previous</a></li>
+                <li></li>
+              </ul>
+            </nav>
+          </section>
+
+          <aside class="aside-content" role="complementary">
+            <div class="aside-wrapper">
+
+              <div class="block table-of-contents">
+                <h3>Table of contents</h3>
+                <nav role="navigation">
+                  <ul>
+                    <li class='child '><a href="/">Introduction</a></li><li class='child '><a href="/code_highlighter.html">Code Highlighter</a></li><li class='child active'><a href="/markdown.html">Markdown examples</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <!--
+              <div class="block translations">
+                <h3>Book translations</h3>
+                <p>This book is translated into
+                  <a href="#">Spanish</a>
+                  and <a href="#">English</a>.
+                  You can help with more translations <a href="https://github.com/yourname/example-book">on Github</a>.
+                </p>
+              </div>
+              -->
+            </div><!-- end aside-wrapper -->
+          </aside>
+
+        </div><!-- end content-wrapper -->
+
+      <footer class="page-footer">
+
+        <div class="footer-wrapper">
+          <!--
+          <div class="block downloads">&nbsp;
+            <h3>Downloads</h3>
+            <p>Download this book in
+                <a href="#">PDF</a>, <a href="#">mobi</a>, and <a href="#">epub</a>
+              form for free.
+            </p>
+          </div>
+          -->
+          <div class="block license">
+            <h3>License</h3>
+            <p>This book is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0">Attribution-ShareAlike</a> license.</p>
+          </div>
+
+          <div class="block open-source">
+            <h3>This book is open source</h3>
+            <p>The source of this book is <a href="https://github.com/yourname/example-book">hosted on Github</a>. Go, ahead. Check it out.</p>
+          </div>
+
+          <small class="small-text">Copyright 2019</small>
+
+        </div><!-- end footer-wrapper -->
+
+      </footer>
+
+
+    </div><!-- end page-wrapper -->
+
+    <!-- include scripts just before the close of the body tag -->
+    <script src="/themes/glide/javascripts/anchor.min-9893b39a.js"></script>
+    <script src="/themes/glide/javascripts/glide-0e98d5e5.js"></script>
+  </body>
+</html>
