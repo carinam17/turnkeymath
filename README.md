@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Franklin
 
 Franklin is a static-site framework, optimized for online books.
@@ -137,3 +138,6 @@ and put locales file `pl.yml` in `locales` directory in format:
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)
+=======
+# turnkeymath
+>>>>>>> 3df848599bd067883aa1b5dce37d78722eb5d2dc
